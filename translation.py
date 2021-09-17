@@ -5,7 +5,7 @@ class Translation(object):
     START_TEXT = """
 Hello {} , I'am a url to telegram file or media uploader bot with permanent thumbnail support.
 
-Made by @FayasNoushad
+Made by @MHDMILHEM
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -24,18 +24,16 @@ Made by @FayasNoushad
 """
     ABOUT_TEXT = """
 - **Bot :** `URL Uploader`
-- **Creator :** [Fayas](https://telegram.me/TheFayas)
-- **Channel :** [Fayas Noushad](https://telegram.me/FayasNoushad)
-- **Credits :** `Everyone in this journey`
-- **Source :** [Click here](https://github.com/FayasNoushad/URL-Uploader)
+- **Creator :** [Fayas](https://telegram.me/VaComp)
+- **Channel :** [Fayas Noushad](https://telegram.me/VaComp)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Channel', url='https://telegram.me/VaComp'),
+        InlineKeyboardButton('Feedback', url='https://telegram.me/VaComp')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
